@@ -6,14 +6,14 @@ $(document).ready(function() {
 		console.log("compPick: " + compPick); 
 		$(".randomNumber").html(compPick); 
 
-	 var randomArray = []; 
-	 	console.log("randomArray: " + randomArray); 
+//	 var randomArray = []; 
+//	 	console.log("randomArray: " + randomArray); 
 
-	 for (i = 0 ; i < 4 ; i++) {
-	 	var gemNumber = Math.floor(Math.random() * 12) + 1; 
-	 		console.log("gemNumber: " + gemNumber); 
-	 	randomArray.push(gemNumber); 
-	 }
+//	 for (i = 0 ; i < 4 ; i++) {
+//	 	var gemNumber = Math.floor(Math.random() * 12) + 1; 
+//	 		console.log("gemNumber: " + gemNumber); 
+//	 	randomArray.push(gemNumber); 
+//	 }
 
 	var gemOne = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 1: " + gemOne); 
