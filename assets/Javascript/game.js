@@ -1,9 +1,7 @@
+$(document).ready(function() {
 
 
-
-
-
-
+//
 	var compPick = Math.floor(Math.random() * 102) + 19; 
 		console.log("compPick: " + compPick); 
 		$(".randomNumber").html(compPick); 
@@ -16,7 +14,7 @@
 //	 		console.log("gemNumber: " + gemNumber); 
 //	 	randomArray.push(gemNumber); 
 //	 }
-
+//
 	var gemOne = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 1: " + gemOne); 
         $("#img1").html("<img src=" + "assets/images/gem1.png" + " value=" + gemOne + ">");
@@ -116,5 +114,5 @@
 
 	}); 
 
-
+}); 
 
