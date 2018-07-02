@@ -1,0 +1,65 @@
+.instruction {
+	border: 2px solid black;
+	padding: 2%;
+	background-color: white; 
+	opacity: 0.6; 
+	font-family: 'Shrikhand', cursive;
+    color: black;
+    line-height: 1.5em;
+}
+h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.randomNumber {
+	border: 2px solid black;
+	padding: 3%;
+	background-color: white; 
+	opacity: 0.6; 
+	color: red;
+	font-size: 200%; 
+	font-family: 'Shrikhand', cursive;
+}
+
+.totalWL { 
+	border: 2px solid black;
+	padding: 2%; 
+	background-color: white; 
+	opacity: 0.6; 
+    font-family: 'Shrikhand', cursive;
+ }
+
+ .totalScore {
+ 	border: 2px solid black; 
+ 	background-color: white; 
+    opacity: 0.6; 
+    padding: 2%;
+	font-family: 'Shrikhand', cursive;
+	color: red;
+
+ }
+
+ .scoreDisplay {
+ 	border: 2px solid black;
+	padding: 3%; 
+	background-color: white; 
+	opacity: 0.6; 
+	color: green;
+	font-size: 200%;
+	font-family: 'Shrikhand', cursive;
+ }
+
+ .wallpaper { 
+    background-image: url("http://www.planwallpaper.com/static/images/2ba7dbaa96e79e4c81dd7808706d2bb7_large.jpg");
+	background-size: 100%;
+ }
+
+ .header { 
+	font-family: 'Shrikhand', cursive;
+  }
+
+  .wins, .losses { 
+	padding: 2%;
+	color: red;
+  }
