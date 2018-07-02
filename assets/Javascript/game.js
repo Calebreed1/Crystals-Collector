@@ -17,7 +17,7 @@ $(document).ready(function() {
 //
 	var gemOne = Math.floor(Math.random() * 12) + 1; 
 		console.log("Gem 1: " + gemOne); 
-        $("#img1").html("<img src=" + "assets/Images/gem1.jpg" + " value=" + gemOne + ">");
+        $("#img1").html("<img src=assets/Images/gem1.jpg" + " value=" + gemOne + ">");
        
         
 
