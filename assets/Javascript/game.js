@@ -52,19 +52,19 @@ $(document).ready(function() {
 
 		gemOne = Math.floor(Math.random() * 12) + 1;  
 			console.log("Gem 1: " + gemOne); 
-		$("#img1").html("<img src=" + "assets/images/gem1.png" + " value=" + gemOne + ">"); 
+		$("#img1").html("<img src=" + "assets/Images/gem1.jpg" + " value=" + gemOne + ">"); 
 
 		gemTwo = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 2: " + gemTwo); 
-		$("#img2").html("<img src=" + "assets/images/gem2.png" + " value=" + gemTwo + ">"); 
+		$("#img2").html("<img src=" + "assets/Images/gem2.jpg" + " value=" + gemTwo + ">"); 
 
 		gemThree = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 3: " + gemThree); 
-		$("#img3").html("<img src=" + "assets/images/gem3.png" + " value=" + gemThree + ">");
+		$("#img3").html("<img src=" + "assets/Images/gem3.jpg" + " value=" + gemThree + ">");
 	
 		gemFour = Math.floor(Math.random() * 12) + 1; 
 			console.log("Gem 4: " + gemFour); 
-		$("#img4").html("<img src=" + "assets/images/gem4.png" + " value=" + gemFour + ">");
+		$("#img4").html("<img src=" + "assets/Images/gem4.jpg" + " value=" + gemFour + ">");
 
 		$("img").on("click", function () {
 			var newScore = score += parseInt($(this).attr("value")); 
