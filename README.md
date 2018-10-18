@@ -8,4 +8,4 @@ The value of each crystal is hidden from you until you click on it.	Each time wh
 ![screenshot](assets/Images/crystal.jpg)
 
 # Website Link
-Link to game: https://calebreed1.github.io/Unit-4-game/
+Link to game: https://calebreed1.github.io/Crystals-Collector/
