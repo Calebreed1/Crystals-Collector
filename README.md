@@ -5,7 +5,7 @@ The value of each crystal is hidden from you until you click on it.	Each time wh
 
 
 # Website Screenshot
-![screenshot](assets/images/)
+![screenshot](assets/images/crystal.jpg)
 
 # Website Link
 Link to game: https://calebreed1.github.io/Unit-4-game/
